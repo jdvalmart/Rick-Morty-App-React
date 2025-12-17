@@ -4,7 +4,7 @@
 
 ¡Bienvenido al Explorador de Rick & Morty! Este es un proyecto educativo diseñado para dominar los fundamentos de **React**, el manejo de estado con **Hooks**, y la estilización moderna con **Tailwind CSS**.
 
-🚀 **Puedes ver la aplicación en vivo aquí:** [TU_ENLACE_DE_NETLIFY.netlify.app](https://tu-proyecto.netlify.app)
+🚀 **Puedes ver la aplicación en vivo aquí:** [TU_ENLACE_DE_NETLIFY.netlify.app](https://rickmorty-reac.netlify.app/)
 
 ---
 
@@ -31,4 +31,4 @@ Si quieres ejecutar este proyecto localmente, sigue estos pasos:
 
 1. **Clona el repositorio:**
    ```bash
-   git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+   git clone [https://github.com/jdvalmart/Rick-Morty-App-React.git](git@github.com:jdvalmart/Rick-Morty-App-React.git)
