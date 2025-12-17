@@ -4,7 +4,7 @@
 
 ¡Bienvenido al Explorador de Rick & Morty! Este es un proyecto educativo diseñado para dominar los fundamentos de **React**, el manejo de estado con **Hooks**, y la estilización moderna con **Tailwind CSS**.
 
-🚀 **Puedes ver la aplicación en vivo aquí:** [TU_ENLACE_DE_NETLIFY.netlify.app](https://rickmorty-reac.netlify.app/)
+🚀 **Puedes ver la aplicación en vivo aquí:** [Rick Morty App](https://rickmorty-reac.netlify.app/)
 
 ---
 
