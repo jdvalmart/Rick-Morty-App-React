@@ -1,16 +1,34 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧪 Rick & Morty Explorer - React + Vite
 
-Currently, two official plugins are available:
+¡Bienvenido al Explorador de Rick & Morty! Este es un proyecto educativo diseñado para dominar los fundamentos de **React**, el manejo de estado con **Hooks**, y la estilización moderna con **Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 **Puedes ver la aplicación en vivo aquí:** [TU_ENLACE_DE_NETLIFY.netlify.app](https://tu-proyecto.netlify.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+* **React (Vite):** Biblioteca principal para la interfaz.
+* **Tailwind CSS:** Framework de utilidades para un diseño rápido y responsivo.
+* **Rick & Morty API:** Fuente de datos externa para los personajes.
+* **Hooks:** * `useState` para la memoria de datos.
+    * `useEffect` para llamadas asíncronas.
+    * `useReducer` para la gestión lógica de estados complejos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Conceptos Aprendidos
+
+Este proyecto cubre los pilares esenciales del desarrollo moderno con React:
+1.  **Componentización:** Creación de componentes reutilizables (Cards, Grids).
+2.  **Manejo de Props:** Comunicación de datos entre componentes padre e hijos.
+3.  **Llamadas a APIs:** Consumo de datos reales mediante `fetch`.
+4.  **Estado Avanzado:** Implementación de `useReducer` para separar la lógica del renderizado.
+
+## 📦 Instalación y Configuración
+
+Si quieres ejecutar este proyecto localmente, sigue estos pasos:
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
