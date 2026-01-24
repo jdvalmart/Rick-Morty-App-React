@@ -6,13 +6,17 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  const API_URL = import.meta.env.DEV
+    ? "/api/character"
+    : "https://api.rickandmortyapi.com/api/character";
+
   useEffect(() => {
     async function fetchData() {
       try {
         setLoading(true);
         setError(null);
 
-        const response = await fetch("/api/character");
+        const response = await fetch(API_URL);
 
         if (!response.ok) {
           throw new Error("Error al cargar personajes");
@@ -28,7 +32,7 @@ function App() {
     }
 
     fetchData();
-  }, []);
+  }, [API_URL]);
 
   return (
     <div className="min-h-screen bg-gray-100 p-8">
